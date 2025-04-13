@@ -1,0 +1,135 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family:Dancing Script,Montserrat, Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: #fc6d7471;
+  }
+  h1,h2,h3{
+    font-family: Dancing Script;
+  }
+  p,span{
+    font-family: Montserrat; 
+  }
+  header,footer{
+    background-color:#126355e7;
+    color: rgb(230, 202, 134);
+    position: relative;
+  }
+  /*Headline*/
+  #headline{
+    font-size: 3em;
+    text-align: center;
+  }
+  #adeus_rugas{
+    text-align: center;
+    font-size: 1.2em;
+  }
+  #subheadline{
+    font-size: 1.4em;
+    text-align: center;
+  }
+  #compra{
+    position: static;
+    text-align: center;
+    padding-top: 0.3em;
+    padding-bottom: 0.8em;
+  }
+  #btn_compra{
+    background-color: #f27d8a;
+    padding: 15px 30px;
+    border-radius: 30px;
+    border: solid #f27d8a;
+  }
+  #btn_compra>a{
+    font-weight: bold;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #fff;
+  }
+  #btn_compra:hover{
+    transition: ease 1s;
+    transform: scale(1.3);
+    cursor: pointer;
+    background-color: #d86172;
+    border: solid #d86172;
+  }
+  /*Conteudo descrição do produto*/
+  section{
+    border: 2px solid blue;
+    display: flex;
+    align-items: center;
+  }
+.descricao-produto1 >p,.descricao-produto2 >p,.descricao-produto3 >p{
+  border: 10px solid yellow;
+}
+.imagens-produtos{
+  border: 10px solid red;
+  
+}
+
+
+
+
+
+ /* .fixed-cta {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #b05574;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 1rem;
+    text-decoration: none;
+    z-index: 1000;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+  }
+  .fixed-cta:hover {
+    background-color: #d86172;
+  }
+  
+  .accordion-section {
+    margin: 30px 20px;
+  }
+  
+  .accordion {
+    background-color: #ffe9ec;
+    color: #333;
+    cursor: pointer;
+    padding: 15px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 1rem;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .accordion:hover {
+    background-color: #fbcdd2;
+  }
+  
+  .panel {
+    padding: 0 15px;
+    background-color: #fffdfd;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease;
+    border-radius: 0 0 10px 10px;
+  }
+  
+  .panel p, .panel ul {
+    margin: 15px 0;
+  }
+  */
