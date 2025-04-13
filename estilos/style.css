@@ -73,12 +73,7 @@ body {
   border: 10px solid red;
   
 }
-
-
-
-
-
- /* .fixed-cta {
+.fixed-cta {
     position: fixed;
     bottom: 20px;
     left: 50%;
@@ -132,4 +127,4 @@ body {
   .panel p, .panel ul {
     margin: 15px 0;
   }
-  */
+  
